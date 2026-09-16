@@ -1,0 +1,356 @@
+/*====================================
+        APARICIÓN
+====================================*/
+
+.animar{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:.8s ease;
+
+}
+
+.animar.mostrar{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+/*====================================
+      FADE
+====================================*/
+
+.fade{
+
+animation:fade .8s forwards;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+/*====================================
+      SUBIR
+====================================*/
+
+.up{
+
+animation:up .8s forwards;
+
+}
+
+@keyframes up{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/*====================================
+      ZOOM
+====================================*/
+
+.zoom{
+
+animation:zoom .6s forwards;
+
+}
+
+@keyframes zoom{
+
+from{
+
+opacity:0;
+
+transform:scale(.85);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+/*====================================
+      BOTONES
+====================================*/
+
+.btn{
+
+transition:.35s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-6px);
+
+box-shadow:
+
+0 0 20px rgba(183,255,42,.45),
+
+0 0 40px rgba(183,255,42,.25);
+
+}
+
+/*====================================
+      PRODUCTOS
+====================================*/
+
+.product{
+
+transition:
+
+transform .35s,
+
+box-shadow .35s;
+
+}
+
+.product:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+
+0 15px 40px rgba(0,0,0,.35),
+
+0 0 25px rgba(183,255,42,.20);
+
+}
+
+/*====================================
+      IMAGEN
+====================================*/
+
+.product img{
+
+transition:.45s;
+
+}
+
+.product:hover img{
+
+transform:scale(1.06);
+
+}
+
+/*====================================
+      ICONOS
+====================================*/
+
+.icons button{
+
+transition:.3s;
+
+}
+
+.icons button:hover{
+
+transform:scale(1.12);
+
+}
+
+/*====================================
+      CATEGORÍAS
+====================================*/
+
+.categoria-card{
+
+transition:.35s;
+
+}
+
+.categoria-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+
+0 10px 35px rgba(183,255,42,.18);
+
+}
+
+/*====================================
+      PANEL
+====================================*/
+
+.panel-carrito,
+.panel-favoritos{
+
+transition:right .35s;
+
+}
+
+/*====================================
+      TOAST
+====================================*/
+
+.toast{
+
+position:fixed;
+
+left:50%;
+
+bottom:30px;
+
+transform:translateX(-50%) translateY(100px);
+
+background:#B7FF2A;
+
+color:#111;
+
+padding:16px 28px;
+
+border-radius:40px;
+
+font-weight:bold;
+
+opacity:0;
+
+transition:.35s;
+
+z-index:99999;
+
+}
+
+.toast.mostrar{
+
+opacity:1;
+
+transform:translateX(-50%) translateY(0);
+
+}
+
+/*====================================
+      HERO
+====================================*/
+
+.hero-image img{
+
+animation:flotar 5s ease-in-out infinite;
+
+}
+
+@keyframes flotar{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+/*====================================
+      BRILLO
+====================================*/
+
+.logo{
+
+animation:logoGlow 4s infinite;
+
+}
+
+@keyframes logoGlow{
+
+0%{
+
+text-shadow:none;
+
+}
+
+50%{
+
+text-shadow:
+
+0 0 10px #B7FF2A,
+
+0 0 20px #B7FF2A;
+
+}
+
+100%{
+
+text-shadow:none;
+
+}
+
+}
+
+/*====================================
+      SCROLL BAR
+====================================*/
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#090B09;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#B7FF2A;
+
+border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#d6ff6c;
+
+}
