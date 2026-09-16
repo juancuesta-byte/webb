@@ -39,7 +39,7 @@ const productos = [
     {
         id: 5,
         nombre: "RIF BAR 40K DE PUFF",
-        precio: 16000,
+        precio: 28000,
         categoria: "desechables",
         imagen: "rifbar-40k.jpg"
     },
@@ -63,7 +63,7 @@ const productos = [
     {
         id: 8,
         nombre: "BANG 32K DE PUFF",
-        precio: 23000,
+        precio: 30000,
         categoria: "desechables",
         imagen: "bang-32k.jpg"
     },
