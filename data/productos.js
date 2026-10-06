@@ -7,15 +7,15 @@ const productos = [
     {
         id: 1,
         nombre: "CLASE AZUL 15K DE PUFF",
-        precio: 30000,
+        precio: 30999,
         categoria: "Desechables",
         imagen: "clase-15k.jpg"
     },
 
     {
         id: 2,
-        nombre: "MTRX 25K DE PUFF",
-        precio: 22000,
+        nombre: "MTRX 50K DE PUFF",
+        precio: 30000,
         categoria: "desechables",
         imagen: "mtrx-25k.jpg"
     },
@@ -31,7 +31,7 @@ const productos = [
     {
         id: 4,
         nombre: "BARBIE BAR 15K DE PUFF",
-        precio: 20000,
+        precio: 22000,
         categoria: "desechables",
         imagen: "barbie-20k.jpg"
     },
@@ -39,7 +39,7 @@ const productos = [
     {
         id: 5,
         nombre: "RIF BAR 40K DE PUFF",
-        precio: 28000,
+        precio: 28500,
         categoria: "desechables",
         imagen: "rifbar-40k.jpg"
     },
@@ -47,7 +47,7 @@ const productos = [
     {
         id: 6,
         nombre: "LOST MARY 5K DE PUFF",
-        precio: 14000,
+        precio: 15500,
         categoria: "desechables",
         imagen: "lost-5k.jpg"
     },
@@ -55,7 +55,7 @@ const productos = [
     {
         id: 7,
         nombre: "VERA VR 22K DE PUFF",
-        precio: 21000,
+        precio: 22000,
         categoria: "desechables",
         imagen: "vera-22k.jpg"
     },
@@ -63,7 +63,7 @@ const productos = [
     {
         id: 8,
         nombre: "BANG 32K DE PUFF",
-        precio: 30000,
+        precio: 29500,
         categoria: "desechables",
         imagen: "bang-32k.jpg"
     },
@@ -71,7 +71,7 @@ const productos = [
     {
         id: 9,
         nombre: "SPACEMAN 50K DE PUFF",
-        precio: 30000,
+        precio: 30999,
         categoria: "desechables",
         imagen: "spaceman-50k.jpg"
     },
