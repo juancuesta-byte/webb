@@ -17,15 +17,15 @@ const productos = [
         nombre: "MTRX 50K DE PUFF",
         precio: 30000,
         categoria: "desechables",
-        imagen: "mtrx-25k.jpg"
+        imagen: "mtrx-50k.jpg"
     },
 
     {
         id: 3,
-        nombre: "DEATH ROW RAINBOW POP 5K DE PUFF",
-        precio: 14000,
+        nombre: "DONA 50K DE PUFF",
+        precio: 30000,
         categoria: "desechables",
-        imagen: "rainbow-pop.jpg"
+        imagen: "donete-50k.jpg"
     },
 
     {
